@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: #080414;
+}
+
+.ramecek {
+    width: 400px;
+    max-width: 80%;
+    min-width: 10%;
+    padding: 30px;
+    border: #0d0d0e solid;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 34px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.boxterm {
+    border: #22c55e solid 2px; /* Change to red if you get termed*/
+    border-radius: 10px;
+    color: #22c55e; /* Change to red if you get termed*/
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    align-self: center;
+    padding: 5px;
+    width: 70px;
+    font-size: 20px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.boxvisit {
+    flex: 1;
+    text-align: center;
+    background-image: linear-gradient(to right,#120f6d, #1611a5);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #969da8;
+    font-size: 15px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.ad {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #474a50;
+    font-size: 13px;
+}
+.ad1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #474a50;
+    font-size: 15px;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    color: #474a50;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+/*
+SITE MADE BY:
+███████╗██╗   ██╗ ██████╗ ████████╗
+╚══███╔╝██║   ██║██╔═══██╗╚══██╔══╝
+  ███╔╝ ██║   ██║██║   ██║   ██║   
+███╔╝   ██║   ██║██║   ██║   ██║   
+███████╗╚██████╔╝╚██████╔╝   ██║   
+╚══════╝ ╚═════╝  ╚═════╝    ╚═╝ 
+*/
