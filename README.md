@@ -21,4 +21,4 @@ Violation of the above terms may result in losing access to future updates and s
 
 Thank you for respecting the rules, and enjoy using the project! 😊
 
--# This project was inspired by amitermed.com which sadly was discontinued. 
+This project was inspired by amitermed.com which sadly was discontinued. 
